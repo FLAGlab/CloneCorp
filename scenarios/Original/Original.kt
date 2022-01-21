@@ -1,5 +1,3 @@
-class Original {
-
 	fun sumProd(n: Int) {
 		var sum = 0.0;//C1
 		var prod = 1.0;
@@ -9,4 +7,3 @@ class Original {
 			foo(sum, prod);
 		}
 	}
-}
