@@ -7,4 +7,3 @@ function sumProd(n) {
 			foo(p, s);
 		}
 	}
-}
