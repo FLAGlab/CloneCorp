@@ -1,0 +1,4 @@
+repos:
+
+android: https://github.com/wordpress-mobile/WordPress-Android
+iOS: https://github.com/wordpress-mobile/WordPress-iOS
