@@ -1,3 +1,3 @@
 fun main(){
-    val lengthOfArray = 10;
+    val lengthOfArray = 10
 }
