@@ -1,0 +1,1 @@
+j !< right_array.length

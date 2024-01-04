@@ -5,5 +5,4 @@ func main() {
 		sum =  sum + i
 		i += 1
 	}
-	println(sum)
 }

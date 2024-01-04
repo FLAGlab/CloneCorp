@@ -3,20 +3,20 @@ enum Rank {
 };
 
 string simpleDescription(Rank r) {
-        switch(r) {
-            case ace:
-                return "ace"
-            case jack:
-                return "jack"
-            case queen:
-                return "queen"
-            case king:
-                return "king"
-            default:
-                return to_string((int)r)
-        }
+    switch(r) {
+        case ace:
+            return "ace";
+        case jack:
+            return "jack";
+        case queen:
+            return "queen";
+        case king:
+            return "king";
+        default:
+            return to_string((int)r);
     }
 }
+
 Rank a = two;
 int twoValue = two;
 
@@ -25,17 +25,18 @@ enum Suit {
 };
 
 string simpleDescription(Suit s) {
-        switch(s) {
-            case spades:
-                return "spades"
-            case hearts:
-                return "hearts"
-            case diamonds:
-                return "diamonds"
-            case clubs:
-                return "clubs"
-        }
+    switch(s) {
+        case spades:
+            return "spades";
+        case hearts:
+            return "hearts";
+        case diamonds:
+            return "diamonds";
+        case clubs:
+            return "clubs";
+        default: return "error";
     }
 }
+
 Suit h = hearts;
 string heartsDescription = simpleDescription(h);

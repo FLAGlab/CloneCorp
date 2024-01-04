@@ -1,13 +1,11 @@
-class Person(val name: String){
-    fun present(){
-        return "Yes";
-    }
-    fun greet(other: String){
-        return  other;
+class Person(private val name: String){
+    fun present() : String = "Yes"
+    fun greet(other: String) : String {
+        return "Both $name and $other"
     }
 }
 
 fun main(args: Array<String>) {
-    Person A = Person("A");
-    Person B = Person("B");
+    val A = Person("A")
+    val B = Person("B")
 }

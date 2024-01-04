@@ -1,5 +1,7 @@
-class Person{
-    Car(String name) {
+class Person {
+    var name;
+
+    Person(String name) {
       this.name = name;
     }
 
@@ -7,12 +9,12 @@ class Person{
         return "Yes";
     }
 
-    void great(String other){
-        return other;
+    String great(String other){
+        return "Both ${name} and ${other}";
     }
 }
 
 main(){
     Person A = Person("A");
-    Person B = Person("B")
+    Person B = Person("B");
 }

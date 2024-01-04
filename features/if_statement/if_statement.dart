@@ -1,9 +1,9 @@
-void main(int j){
+String conditional(int j){
     if (j > 10) {
         return "Hola";
     }
     else {
         return "Fin";
     }
-    int ten = 10
+    int ten = 10;
 }

@@ -18,7 +18,7 @@ var statistics = calculateStatistics([5, 3, 100, 3, 9]);
 print(statistics[2]);
 print(statistics[1]);
 
-bool hasAnyMatches(List<int> list,  Function(int)) {
+bool hasAnyMatches(List<int> list,  Function(int) condition) {
     for (int item in list) {
         if (condition(item)) {
             return true;
@@ -30,4 +30,4 @@ bool lessThanTen(int number) {
     return number < 10;
 }
 var numbers = [20, 19, 7, 12];
-hasAnyMatches(numbers, lessThanTen)
+hasAnyMatches(numbers, lessThanTen);

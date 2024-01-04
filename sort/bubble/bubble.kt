@@ -14,26 +14,3 @@ fun bubbleSort(arr:IntArray):IntArray{
     }
     return arr
 }
-
-fun main(args: Array<String>) {
-    val list = bubbleSort(intArrayOf(2,15,1,8,4))
-    for (k in list) print("$k ")
-}
-
-class Person(val name: String, var age: Int){
-    fun present() = "Holiii"
-    fun greet(other: String) = "Lalalalalala"
-}
-
-class SamePerson {
-    constructor(parent: Person) {
-        parent.children.add(this)
-    }
-
-    fun present(){
-        return "Hola"
-    }
-    fun greet(other:String){
-        return "lalala"
-    }
-}

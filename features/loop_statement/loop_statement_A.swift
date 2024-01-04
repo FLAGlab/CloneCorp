@@ -1,8 +1,7 @@
 func main() {
-	var total = 0
-	for i in 1..100 {
-    	total += i
+	var sum = 0
+	for i in 1...100 {
+    	sum = sum + i
 	}
-	print(total)
 }
 

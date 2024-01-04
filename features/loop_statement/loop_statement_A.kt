@@ -3,5 +3,4 @@ fun main(){
     for (i in 1..100) {
         sum = sum + i
     }
-	println(sum)
 }

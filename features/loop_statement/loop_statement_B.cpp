@@ -1,9 +1,8 @@
-void main(0) {
+void main() {
 	int sum=0;
-	var i=1;
+	int i=1;
 	while(i<= 100) {
-		sum += i;
+		sum = sum + i;
 		i += 1;
 	}
-	cout << sum << endl;
 }

@@ -4,20 +4,19 @@ enum Rank {
     JACK, QUEEN, KING
 }
 
-simpleDescription(Rank r) {
-        switch(r) {
-            case ACE:
-                return "ace"
-            case JACK:
-                return "jack"
-            case QUEEN:
-                return "queen"
-            case KING:
-                return "king"
-            default:
-                return to_string((int)r)
-        }
-    }
+rankDescription(Rank r) {
+  switch(r) {
+      case Rank.ACE:
+          return "ace";
+      case Rank.JACK:
+          return "jack";
+      case Rank.QUEEN:
+          return "queen";
+      case Rank.KING:
+          return "king";
+      default:
+          return (r.index + 1).toString();
+  }
 }
 
 
@@ -25,20 +24,19 @@ enum Suit {
     SPADES, HEARTS, DIAMONDS, CLUBS
 }
 
-simpleDescription(Suit r) {
-        return when(s) {
-            Suit.SPADES -> "spades"
-            Suit.HEARTS -> "hearts"
-            Suit.DIAMONDS -> "diamonds"
-            Suit.CLUBS -> "clubs"
-        }
-    }
+suitDescription(Suit s) {
+  switch(s) {
+      case Suit.SPADES : return "spades";
+      case Suit.HEARTS : return "hearts";
+      case Suit.DIAMONDS : "diamonds";
+      case Suit.CLUBS : "clubs";
+  }
 }
 
-fun main() {
-	vale ace = Rank.ACE
-	val hearts = Suit.HEARTS
-	simpleDescription(ace)
-	simpleDescription(hearts)
+void main() {
+	Rank ace = Rank.ACE;
+	Suit hearts = Suit.HEARTS;
+	rankDescription(ace);
+	suitDescription(hearts);
 }
 
