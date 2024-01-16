@@ -1,3 +1,9 @@
 Repos 
 
-https://gitlab.com/isis3510_202XX0_teamXX/
+https://gitlab.com/isis3510_20XXX0_teamXX/
+
+
+2023
+https://github.com/pguatibonza/ISIS3510_202320_Team11_flutter.git	https://github.com/isamgalindo/MiCamion2.git
+https://github.com/Moviles202320Grupo12/Unimaps_Flutter.git	https://github.com/Moviles202320Grupo12/Unimaps_Kotlin.git
+https://github.com/ISIS3510-202320-Team13/Flutter	https://github.com/ISIS3510-202320-Team13/Android_Kotlin
