@@ -5,7 +5,7 @@
 Data corpus for the evaluation of cross-language clone detection algorithms.
 The corpus is divided into four datasets:
 
-- Clone scenarios (taken from the BigCloneBench)
+- Clone scenarios (inspired on the ["Comparison and evaluation of code clone detection techniques and tools: A qualitative approach"](http://dx.doi.org/10.1016/j.scico.2009.02.007) paper)
 - Basic language features
 - Sorting Algorithms
 - Mobile apps
